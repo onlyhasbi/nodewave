@@ -11,7 +11,7 @@ function Card({ children, className, dataAos, duration }: Props) {
     <div
       data-aos={dataAos}
       data-aos-duration={duration}
-      className={`${className} rounded-3xl border border-white border-width-2`}
+      className={`${className} rounded-3xl border outline-2 outline-white`}
     >
       {children}
     </div>

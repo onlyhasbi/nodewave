@@ -21,7 +21,7 @@ function Product() {
         <Card
           dataAos="fade-right"
           duration={800}
-          className="min-w-[13.75rem] py-5 lg:py-12 p-[1.5rem] cursor-pointer hover:bg-white group order-1 lg:order-none"
+          className="min-w-[13.75rem] h-auto py-5 lg:py-12 p-[1.5rem] cursor-pointer bg-white group order-1 lg:order-none"
         >
           <div className="w-full flex gap-x-6 justify-center items-center">
             <Image
@@ -33,13 +33,11 @@ function Product() {
             />
             <div className="space-y-2">
               <h3
-                className={`${rubik.className} font-medium text-2xl group-hover:text-text_secondary`}
+                className={`${rubik.className} font-medium text-2xl text-text_secondary`}
               >
                 Mobile Apps
               </h3>
-              <p
-                className={`${roboto.className} group-hover:text-text_primary`}
-              >
+              <p className={`${roboto.className} text-text_primary`}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </p>
             </div>
@@ -83,7 +81,7 @@ function Product() {
         <Card
           dataAos="fade-right"
           duration={1200}
-          className="py-5 lg:py-12 p-[1.5rem] cursor-pointer transition duration-300 hover:bg-white group min-w-[13.75rem]"
+          className="py-5 lg:py-12 p-[1.5rem] cursor-pointer hover:bg-white group min-w-[13.75rem]"
         >
           <div className="flex justify-center items-center gap-x-6 ">
             <Image
