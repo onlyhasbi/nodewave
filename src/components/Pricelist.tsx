@@ -15,14 +15,14 @@ function Pricelist() {
           className="flex xl:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] xl:h-[21.125rem] overflow-hidden"
         >
           <Image
-            className="block w-full xl:w-[15.125rem] h-full xl:object-cover xl:justify-self-end "
+            className="block w-full xl:w-[15.125rem] h-[15rem] xl:h-auto xl:object-cover order-1 xl:order-2"
             src="/assets/code-screen.png"
             width={242}
             height={338}
             alt="website-image"
           />
 
-          <div className="w-full flex justify-center items-center order-0 xl:order-none p-5 xl:p-0">
+          <div className="w-full flex justify-center items-center order-2 xl:order-1 p-5 xl:p-0">
             <div className="relative h-[13rem] xl:h-[15rem] text-center">
               <h2 className="text-text_secondary  text-[2rem] font-semibold mb-[1.25rem]">
                 Website
@@ -51,13 +51,13 @@ function Pricelist() {
           className="flex xl:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] xl:h-[21.125rem] overflow-hidden"
         >
           <Image
-            className="block w-full xl:w-[15.125rem] h-full xl:object-cover xl:justify-self-end"
+            className="block w-full xl:w-[15.125rem] h-[15rem] xl:h-auto xl:object-cover order-1 xl:order-2"
             src="/assets/mobile-apps.png"
             width={242}
             height={338}
             alt="website-image"
           />
-          <div className="w-full flex justify-center items-center order-0 xl:order-none p-5 xl:p-0">
+          <div className="w-full flex justify-center items-center p-5 xl:p-0 order-2 xl:order-1">
             <div className="relative h-[13rem] xl:h-[15rem] text-center">
               <h2 className="text-text_secondary  text-[2rem] font-semibold mb-[1.25rem]">
                 Mobile Apps
