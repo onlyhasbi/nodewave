@@ -91,7 +91,7 @@ function Applications() {
             data-aos="fade-left"
             data-aos-duration={index * 500}
             key={`product-${index}`}
-            className="flex gap-x-[.625rem] flex-col w-2/5 lg:w-auto lg:flex-row items-center"
+            className="flex gap-x-[.625rem] flex-col w-2/5 lg:w-auto lg:flex-row items-center cursor-pointer transition transform hover:translate-y-2"
           >
             {Boolean(icon) ? (
               <Image src={icon} alt={`icon-${title}`} width={45} height={45} />

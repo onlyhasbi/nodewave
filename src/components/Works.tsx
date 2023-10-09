@@ -11,7 +11,7 @@ function Works() {
         <li
           data-aos="fade-left"
           data-aos-duration={800}
-          className="flex gap-x-5 items-center px-4 w-[54.563rem] h-[32.5rem] bg-[url('/assets/bg-app-01.svg')] object-fill bg-cover  bg-no-repeat"
+          className="flex gap-x-5 items-center px-4 w-[54.563rem] h-[32.5rem] bg-[url('/assets/bg-app-01.svg')] object-fill bg-cover bg-no-repeat"
         >
           <Image
             src="/assets/app-01.svg"

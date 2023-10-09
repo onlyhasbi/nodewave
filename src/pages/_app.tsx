@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '@/styles/globals.css';
 import { Poppins } from 'next/font/google';
+import 'swiper/css'
 
 const poppins = Poppins({
   subsets: ['latin'],

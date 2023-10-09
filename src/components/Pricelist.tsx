@@ -14,7 +14,15 @@ function Pricelist() {
           data-aos-duration={1000}
           className="flex xl:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] xl:h-[21.125rem] overflow-hidden"
         >
-          <div className="w-full flex justify-center items-center order-1 xl:order-none p-5 xl:p-0">
+          <Image
+            className="block w-full xl:w-[15.125rem] h-full xl:object-cover xl:justify-self-end "
+            src="/assets/code-screen.png"
+            width={242}
+            height={338}
+            alt="website-image"
+          />
+
+          <div className="w-full flex justify-center items-center order-0 xl:order-none p-5 xl:p-0">
             <div className="relative h-[13rem] xl:h-[15rem] text-center">
               <h2 className="text-text_secondary  text-[2rem] font-semibold mb-[1.25rem]">
                 Website
@@ -35,13 +43,6 @@ function Pricelist() {
               </button>
             </div>
           </div>
-          <Image
-            className="block w-full xl:w-[15.125rem] h-full xl:object-cover xl:justify-self-end "
-            src="/assets/code-screen.png"
-            width={242}
-            height={338}
-            alt="website-image"
-          />
         </div>
 
         <div
@@ -49,7 +50,14 @@ function Pricelist() {
           data-aos-duration={1500}
           className="flex xl:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] xl:h-[21.125rem] overflow-hidden"
         >
-          <div className="w-full flex justify-center items-center order-1 xl:order-none p-5 xl:p-0">
+          <Image
+            className="block w-full xl:w-[15.125rem] h-full xl:object-cover xl:justify-self-end"
+            src="/assets/mobile-apps.png"
+            width={242}
+            height={338}
+            alt="website-image"
+          />
+          <div className="w-full flex justify-center items-center order-0 xl:order-none p-5 xl:p-0">
             <div className="relative h-[13rem] xl:h-[15rem] text-center">
               <h2 className="text-text_secondary  text-[2rem] font-semibold mb-[1.25rem]">
                 Mobile Apps
@@ -65,13 +73,6 @@ function Pricelist() {
               </button>
             </div>
           </div>
-          <Image
-            className="block w-full xl:w-[15.125rem] h-full xl:object-cover  xl:justify-self-end"
-            src="/assets/mobile-apps.png"
-            width={242}
-            height={338}
-            alt="website-image"
-          />
         </div>
       </div>
     </section>
