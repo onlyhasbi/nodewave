@@ -2,26 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  background: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+*,
+*::before,
+*::after {
+  color: white;
+}
+
+@layer components {
+  .container {
+    @apply w-[90%] mx-auto;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .content-heading-icon {
+    @apply before:content-[''] before:hidden lg:before:block before:absolute before:-top-[1rem] before:-left-[1rem] before:w-[30px] before:h-[30px] before:bg-[url('/assets/title_before_code.svg')] before:object-fill before:bg-contain before:bg-center before:bg-no-repeat;
+  }
+
+  .content-heading-icon {
+    @apply after:content-[''] after:hidden lg:after:block after:absolute after:bottom-[.75rem] after:right-[46%] after:w-[38px] after:h-[38px] after:bg-[url('/assets/title_after_icon_head-idea.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
+  }
+
+  .btn {
+    @apply block bg-primary hover:bg-teal-600 px-5 py-2;
+  }
+
+  .discount {
+    @apply after:content-[''] after:block after:absolute after:bottom-[.35rem] after:right-[10%] after:w-[20px] after:h-[20px] after:bg-[url('/assets/discount-icon.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
+  }
+
+  .landing_page {
+    @apply before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-[45rem] before:bg-[url('/assets/main-bg.png')] before:object-fill before:bg-cover before:bg-center before:bg-no-repeat before:-z-[998];
+  }
+
+  .landing_page {
+    @apply after:content-[''] after:absolute after:top-80 after:right-0 after:w-full after:h-[30rem] after:bg-gradient-to-t after:from-black after:to-transparent after:-z-[990];
+  }
 }
