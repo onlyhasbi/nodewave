@@ -17,12 +17,8 @@ function Product() {
   return (
     <section className="container xl:w-[71.25rem] mt-[6.25rem] mb-[3.125rem]">
       <Title className="text-center mb-10">Product</Title>
-      <div className="w-full grid xl:grid-cols-[24.25rem_auto] md:grid-cols-2 grid-rows-[1fr,auto] gap-11">
-        <Card
-          data-aos="fade-left"
-          data-aos-duration={1000}
-          className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2"
-        >
+      <div className="w-full grid xl:grid-cols-[24.25rem_auto] md:grid-cols-2 grid-rows-[1fr,auto] gap-10">
+        <Card className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2">
           <Image
             src="./assets/mobile-group.svg"
             alt="mobile-apps-icon"
@@ -45,11 +41,7 @@ function Product() {
           <button className="btn rounded-md">Pelajari Selengkapnya</button>
         </Card>
 
-        <Card
-          data-aos="fade-right"
-          data-aos-duration={800}
-          className="min-w-[13.75rem] py-5 lg:py-12 p-[1.5rem] cursor-pointer bg-white group order-1 2xl:order-none"
-        >
+        <Card className="min-w-[13.75rem] py-5 lg:py-12 p-[1.5rem] cursor-pointer bg-white group order-1 2xl:order-none">
           <div className="w-full flex gap-x-6 justify-center items-center">
             <Image
               className="self-start"
@@ -78,11 +70,7 @@ function Product() {
           </div>
         </Card>
 
-        <Card
-          data-aos="fade-right"
-          data-aos-duration={1200}
-          className="py-5 lg:py-12 p-[1.5rem] cursor-pointer hover:bg-white group min-w-[13.75rem] scaling order-2 2xl:order-1"
-        >
+        <Card className="py-5 lg:py-12 p-[1.5rem] cursor-pointer hover:bg-white group min-w-[13.75rem] order-2 2xl:order-1 scale-100 xl:scale-90 xl:hover:scale-100 xl:transition-transform xl:transform xl:duration-300">
           <div className="flex justify-center items-center gap-x-6 ">
             <Image
               className="self-start"
