@@ -14,7 +14,7 @@ html {
 
 @layer components {
   .container {
-    @apply w-[90%] mx-auto;
+    @apply w-[90%] mx-auto max-w-7xl;
   }
 
   .content-heading-icon {
@@ -29,15 +29,17 @@ html {
     @apply block bg-primary hover:bg-teal-600 px-5 py-2;
   }
 
+  .btn {
+    @apply transition-transform hover:scale-105;
+  }
+
   .discount {
     @apply after:content-[''] after:block after:absolute after:bottom-[.35rem] after:right-[10%] after:w-[20px] after:h-[20px] after:bg-[url('/assets/discount-icon.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
   }
 
   .landing_page {
     @apply before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-[45rem] before:bg-[url('/assets/main-bg.png')] before:object-fill before:bg-cover before:bg-center before:bg-no-repeat before:-z-[998];
-  }
 
-  .landing_page {
-    @apply after:content-[''] after:absolute after:top-80 after:right-0 after:w-full after:h-[30rem] after:bg-gradient-to-t after:from-black after:to-transparent after:-z-[990];
+    @apply after:content-[''] after:absolute after:top-[25rem] after:right-0 after:w-full after:lg:h-[20rem] after:h-[20rem] after:bg-gradient-to-t after:from-black after:to-transparent after:-z-[990];
   }
 }

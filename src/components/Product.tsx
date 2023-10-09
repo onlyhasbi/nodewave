@@ -15,13 +15,13 @@ const roboto = Roboto({
 
 function Product() {
   return (
-    <section className="container lg:w-[71.25rem] mt-[6.25rem] mb-[3.125rem]">
+    <section className="container xl:w-[71.25rem] mt-[6.25rem] mb-[3.125rem]">
       <Title className="text-center mb-10">Product</Title>
-      <div className="w-full grid lg:grid-cols-[24.25rem_43rem] lg:grid-rows-2 gap-11 justify-center">
+      <div className="w-full grid xl:grid-cols-[minmax(15%,24.25rem)_minmax(25%,43rem)] xl:grid-rows-2 gap-11 justify-center">
         <Card
-          dataAos="fade-right"
-          duration={800}
-          className="min-w-[13.75rem] h-auto py-5 lg:py-12 p-[1.5rem] cursor-pointer bg-white group order-1 lg:order-none"
+          data-aos="fade-right"
+          data-aos-duration={800}
+          className="min-w-[13.75rem] h-auto py-5 xl:py-12 p-[1.5rem] cursor-pointer bg-white group order-1 xl:order-none"
         >
           <div className="w-full flex gap-x-6 justify-center items-center">
             <Image
@@ -52,8 +52,8 @@ function Product() {
         </Card>
 
         <Card
-          dataAos="fade-left"
-          duration={1000}
+          data-aos="fade-left"
+          data-aos-duration={1000}
           className="row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10"
         >
           <Image
@@ -79,9 +79,9 @@ function Product() {
         </Card>
 
         <Card
-          dataAos="fade-right"
-          duration={1200}
-          className="py-5 lg:py-12 p-[1.5rem] cursor-pointer hover:bg-white group min-w-[13.75rem]"
+          data-aos="fade-right"
+          data-aos-duration={1200}
+          className="py-5 xl:py-12 p-[1.5rem] cursor-pointer hover:bg-white group min-w-[13.75rem] scaling order-2 xl:order-1"
         >
           <div className="flex justify-center items-center gap-x-6 ">
             <Image
