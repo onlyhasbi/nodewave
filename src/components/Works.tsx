@@ -2,17 +2,22 @@ import React from 'react';
 import Title from './Title';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Works() {
   return (
-    <section className="container mt-[3.125rem]">
+    <section
+      data-aos="fade-left"
+      data-aos-duration={800}
+      className="container mt-[3.125rem]"
+    >
       <Title className="mb-9">Our Works</Title>
-      <ul className="relative flex w-[111rem] gap-[1.875rem]">
-        <li
-          data-aos="fade-left"
-          data-aos-duration={800}
-          className="flex gap-x-5 items-center px-4 w-[54.563rem] h-[32.5rem] bg-[url('/assets/bg-app-01.svg')] object-fill bg-cover bg-no-repeat"
-        >
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={1}
+        className="relative flex w-[90rem] gap-[1.875rem]"
+      >
+        <SwiperSlide className="!flex gap-x-5 items-center px-4 !w-[54.563rem] !h-[32.5rem] bg-[url('/assets/bg-app-01.svg')] object-fill bg-cover bg-no-repeat">
           <Image
             src="/assets/app-01.svg"
             alt="app-01"
@@ -26,12 +31,8 @@ function Works() {
               make it easier for consumers, mechanics, and sales
             </p>
           </div>
-        </li>
-        <li
-          data-aos="fade-left"
-          data-aos-duration={2 * 800}
-          className="flex gap-x-5 rounded-xl overflow-hidden items-center px-4 w-[54.563rem] h-[32.5rem] bg-[url('/assets/bg-app-02.svg')] object-fill bg-cover bg-center  bg-no-repeat"
-        >
+        </SwiperSlide>
+        <SwiperSlide className="!flex gap-x-5 rounded-xl overflow-hidden items-center px-4 !w-[54.563rem] !h-[32.5rem] bg-[url('/assets/bg-app-02.svg')] object-fill bg-cover bg-center  bg-no-repeat">
           <Image
             className="rounded-2xl"
             src="/assets/app-02.svg"
@@ -50,8 +51,8 @@ function Works() {
               Visit web
             </Link>
           </div>
-        </li>
-      </ul>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 }

@@ -17,7 +17,11 @@ function Product() {
   return (
     <section className="container xl:w-[71.25rem] mt-[6.25rem] mb-[3.125rem]">
       <Title className="text-center mb-10">Product</Title>
-      <div className="w-full grid xl:grid-cols-[24.25rem_auto] md:grid-cols-2 grid-rows-[1fr,auto] gap-10">
+      <div
+        data-aos="fade-up"
+        data-aos-duration={800}
+        className="w-full grid xl:grid-cols-[24.25rem_auto] md:grid-cols-2 grid-rows-[1fr,auto] gap-10"
+      >
         <Card className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2">
           <Image
             src="./assets/mobile-group.svg"
