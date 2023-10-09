@@ -85,7 +85,7 @@ function Applications() {
         ))}
       </div>
 
-      <div className="flex gap-x-5 gap-y-10 xl:gap-y-0 flex-wrap justify-center mt-[3.125rem]">
+      <div className="flex gap-x-5 gap-y-10 2xl:gap-y-0 flex-wrap justify-center mt-[3.125rem]">
         {products.map(({ icon, title }, index) => (
           <div
             data-aos="fade-left"

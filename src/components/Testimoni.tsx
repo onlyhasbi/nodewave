@@ -35,8 +35,8 @@ function Testimoni() {
       <div className="w-[91.25rem] flex flex-nowrap gap-[1.875rem] cursor-pointer">
         {testimonies.map((testimoni, index) => (
           <Card
-            dataAos="fade-left"
-            duration={index * 800}
+            data-aos="fade-left"
+            data-aos-duration={index * 800}
             key={id + index}
             className="flex flex-col justify-between !bg-white tex-sm font-medium space-y-3.5 py-[.875rem] px-4 rounded-[.375rem] w-[26.375rem]"
           >

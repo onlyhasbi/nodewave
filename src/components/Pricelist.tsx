@@ -8,14 +8,14 @@ function Pricelist() {
       <Title className="mb-[1.875rem]">
         Start Creating Websites or Mobile Apps For You Now
       </Title>
-      <div className="flex gap-x-[6.25rem] gap-y-10 xl:gap-y-0 flex-wrap justify-center">
+      <div className="flex gap-x-[6.25rem] gap-y-10 2xl:gap-y-0 flex-wrap justify-center">
         <div
           data-aos="fade-left"
           data-aos-duration={1000}
-          className="flex lg:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] lg:h-[21.125rem] overflow-hidden"
+          className="flex xl:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] xl:h-[21.125rem] overflow-hidden"
         >
-          <div className="w-full flex justify-center items-center order-1 lg:order-none p-5 lg:p-0">
-            <div className="relative h-[13rem] lg:h-[15rem] text-center">
+          <div className="w-full flex justify-center items-center order-1 xl:order-none p-5 xl:p-0">
+            <div className="relative h-[13rem] xl:h-[15rem] text-center">
               <h2 className="text-text_secondary  text-[2rem] font-semibold mb-[1.25rem]">
                 Website
               </h2>
@@ -36,7 +36,7 @@ function Pricelist() {
             </div>
           </div>
           <Image
-            className="block w-full lg:w-[15.125rem] h-full lg:object-cover lg:justify-self-end "
+            className="block w-full xl:w-[15.125rem] h-full xl:object-cover xl:justify-self-end "
             src="/assets/code-screen.png"
             width={242}
             height={338}
@@ -47,10 +47,10 @@ function Pricelist() {
         <div
           data-aos="fade-right"
           data-aos-duration={1500}
-          className="flex lg:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] lg:h-[21.125rem] overflow-hidden"
+          className="flex xl:flex-row flex-col bg-white rounded-[.625rem] w-[32.813rem] h-[30rem] xl:h-[21.125rem] overflow-hidden"
         >
-          <div className="w-full flex justify-center items-center order-1 lg:order-none p-5 lg:p-0">
-            <div className="relative h-[13rem] lg:h-[15rem] text-center">
+          <div className="w-full flex justify-center items-center order-1 xl:order-none p-5 xl:p-0">
+            <div className="relative h-[13rem] xl:h-[15rem] text-center">
               <h2 className="text-text_secondary  text-[2rem] font-semibold mb-[1.25rem]">
                 Mobile Apps
               </h2>
@@ -66,7 +66,7 @@ function Pricelist() {
             </div>
           </div>
           <Image
-            className="block w-full lg:w-[15.125rem] h-full lg:object-cover  lg:justify-self-end"
+            className="block w-full xl:w-[15.125rem] h-full xl:object-cover  xl:justify-self-end"
             src="/assets/mobile-apps.png"
             width={242}
             height={338}
