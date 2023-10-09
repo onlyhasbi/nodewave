@@ -17,7 +17,34 @@ function Product() {
   return (
     <section className="container xl:w-[71.25rem] mt-[6.25rem] mb-[3.125rem]">
       <Title className="text-center mb-10">Product</Title>
-      <div className="w-full grid md:grid-cols-2 2xl:grid-cols-[24.25rem_43rem] md:grid-rows-[1fr,auto] xs:grid-rows-2 gap-11">
+      <div className="w-full grid xl:grid-cols-[24.25rem_auto] md:grid-cols-2 grid-rows-[1fr,auto] gap-11">
+        <Card
+          data-aos="fade-left"
+          data-aos-duration={1000}
+          className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2"
+        >
+          <Image
+            src="./assets/mobile-group.svg"
+            alt="mobile-apps-icon"
+            width={225.62}
+            height={120}
+          />
+          <div className="space-y-2 text-center">
+            <h3
+              className={`${rubik.className} font-medium text-2xl text-black`}
+            >
+              Mobile Apps
+            </h3>
+            <p className={`${roboto.className} text-black`}>
+              Mobile apps Android dan iPhone sekaligus, buat aplikasi dengan
+              fitur sesuka anda. Bisa untuk aplikasi transaksi jual beli,
+              Aplikasi kasir, Aplikasi Informasi, maupun Aplikasi chat dengan
+              fitur GPS.
+            </p>
+          </div>
+          <button className="btn rounded-md">Pelajari Selengkapnya</button>
+        </Card>
+
         <Card
           data-aos="fade-right"
           data-aos-duration={800}
@@ -49,33 +76,6 @@ function Product() {
               height={20}
             />
           </div>
-        </Card>
-
-        <Card
-          data-aos="fade-left"
-          data-aos-duration={1000}
-          className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2"
-        >
-          <Image
-            src="./assets/mobile-group.svg"
-            alt="mobile-apps-icon"
-            width={225.62}
-            height={120}
-          />
-          <div className="space-y-2 text-center">
-            <h3
-              className={`${rubik.className} font-medium text-2xl text-black`}
-            >
-              Mobile Apps
-            </h3>
-            <p className={`${roboto.className} text-black`}>
-              Mobile apps Android dan iPhone sekaligus, buat aplikasi dengan
-              fitur sesuka anda. Bisa untuk aplikasi transaksi jual beli,
-              Aplikasi kasir, Aplikasi Informasi, maupun Aplikasi chat dengan
-              fitur GPS.
-            </p>
-          </div>
-          <button className="btn rounded-md">Pelajari Selengkapnya</button>
         </Card>
 
         <Card
