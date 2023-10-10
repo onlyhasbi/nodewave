@@ -34,7 +34,7 @@ html {
   }
 
   .discount {
-    @apply after:content-[''] after:block after:absolute after:bottom-[.35rem] after:right-[10%] after:w-[20px] after:h-[20px] after:bg-[url('/assets/discount-icon.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
+    @apply after:content-[''] after:block after:absolute after:bottom-[.35rem] after:right-[10%] after:w-[20px] after:h-[20px] after:bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907327/nodewave/discount-icon_l8qdev.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
   }
 
   .landing_page {
