@@ -18,11 +18,11 @@ html {
   }
 
   .content-heading-icon {
-    @apply before:content-[''] before:hidden lg:before:block before:absolute before:-top-[1rem] before:-left-[1rem] before:w-[30px] before:h-[30px] before:bg-[url('/assets/title_before_code.svg')] before:object-fill before:bg-contain before:bg-center before:bg-no-repeat;
+    @apply before:content-[''] before:hidden lg:before:block before:absolute before:-top-[1rem] before:-left-[1rem] before:w-[30px] before:h-[30px] before:bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907303/nodewave/title_before_code_g42q0k.svg')] before:object-fill before:bg-contain before:bg-center before:bg-no-repeat;
   }
 
   .content-heading-icon {
-    @apply after:content-[''] after:hidden lg:after:block after:absolute after:bottom-[.75rem] after:right-[46%] after:w-[38px] after:h-[38px] after:bg-[url('/assets/title_after_icon_head-idea.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
+    @apply after:content-[''] after:hidden lg:after:block after:absolute after:bottom-[.75rem] after:right-[46%] after:w-[38px] after:h-[38px] after:bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907348/nodewave/title_after_icon_head-idea_jccfgo.svg')] after:object-fill after:bg-contain after:bg-center after:bg-no-repeat;
   }
 
   .btn {
@@ -38,7 +38,7 @@ html {
   }
 
   .landing_page {
-    @apply before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-[45rem] before:bg-[url('/assets/main-bg.png')] before:object-fill before:bg-cover before:bg-center before:bg-no-repeat before:-z-[998];
+    @apply before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-[45rem] before:bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/w_1000/q_auto/f_auto/v1696907346/nodewave/main-bg_bbayhu.png')] before:object-fill before:bg-cover before:bg-center before:bg-no-repeat before:-z-[998];
 
     @apply after:content-[''] after:absolute after:top-[25rem] after:right-0 after:w-full after:lg:h-[20rem] after:h-[20rem] after:bg-gradient-to-t after:from-black after:to-transparent after:-z-[990];
   }

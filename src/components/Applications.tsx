@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const apps = [
   {
-    img: '/assets/list-icon.svg',
+    img: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907335/nodewave/list-icon_yqxcmi.svg',
     title: 'Online Attendance',
     description: `With the times, your team may be able to work in the office or
     outside the office. Get the accuracy of your team's work hours
@@ -19,7 +19,7 @@ const apps = [
     ],
   },
   {
-    img: '/assets/basket-ball-icon.svg',
+    img: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907312/nodewave/basket-ball-icon_rubs2e.svg',
     title: 'Sport Center',
     description: `Create your sports center field booking application. Suitable for futsal, mini soccer, badminton, tennis, golf, basketball, to table tennis. Give your customers the freedom to`,
     lists: [
@@ -32,7 +32,7 @@ const apps = [
     ],
   },
   {
-    img: '/assets/book-icon.svg',
+    img: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907318/nodewave/book-icon_b90uqm.svg',
     title: 'Booking',
     description: `Offer your services in your own application to place orders to delivery directly to the client's house. Suitable for ac service, cleaning, cleaning service, CCTV, massage, and even other digital services. Features that can be made:`,
     lists: [
@@ -46,12 +46,30 @@ const apps = [
 ];
 
 const products = [
-  { icon: '/assets/market-icon.svg', title: 'E-Commerce' },
-  { icon: '/assets/company-icon.svg', title: 'Company Profile' },
-  { icon: '/assets/cashier-icon.svg', title: 'Cashier' },
-  { icon: '/assets/chat-icon.svg', title: 'Chat' },
-  { icon: '/assets/workshop-icon.svg', title: 'Workshop' },
-  { icon: '/assets/construction-icon.svg', title: 'Construction' },
+  {
+    icon: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907340/nodewave/market-icon_srdui7.svg',
+    title: 'E-Commerce',
+  },
+  {
+    icon: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907325/nodewave/company-icon_hftasz.svg',
+    title: 'Company Profile',
+  },
+  {
+    icon: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907320/nodewave/cashier-icon_dwvbrx.svg',
+    title: 'Cashier',
+  },
+  {
+    icon: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907322/nodewave/chat-icon_i0evxj.svg',
+    title: 'Chat',
+  },
+  {
+    icon: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907304/nodewave/workshop-icon_ajfie8.svg',
+    title: 'Workshop',
+  },
+  {
+    icon: 'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_50/q_auto/f_auto/v1696907326/nodewave/construction-icon_cctfda.svg',
+    title: 'Construction',
+  },
   { icon: '', title: 'and many others' },
 ];
 
@@ -70,7 +88,13 @@ function Applications() {
             key={`apps-${index}`}
           >
             <div className="flex items-center gap-x-5 mb-[1.313rem]">
-              <Image src={img} alt={`${title}-icon`} quality={65} width={50} height={50} />
+              <Image
+                src={img}
+                alt={`${title}-icon`}
+                quality={65}
+                width={50}
+                height={50}
+              />
               <h3 className="font-semibold text-xl">{title}</h3>
             </div>
             <div className="flex flex-col gap-y-[1.313rem]">
@@ -94,7 +118,13 @@ function Applications() {
             className="flex gap-x-[.625rem] flex-col w-2/5 lg:w-auto lg:flex-row items-center cursor-pointer transition transform hover:translate-y-2"
           >
             {Boolean(icon) ? (
-              <Image src={icon} alt={`icon-${title}`} quality={65} width={45} height={45} />
+              <Image
+                src={icon}
+                alt={`icon-${title}`}
+                quality={65}
+                width={45}
+                height={45}
+              />
             ) : null}
             <h4 className="text-lg lg:text-left text-center font-semibold">
               {title}

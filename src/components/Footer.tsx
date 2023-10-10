@@ -1,7 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
 
-const icons = ['facebook', 'twitter', 'youtube', 'linkedin', 'instagram'];
+const icons = [
+  'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907329/nodewave/facebook_tmf0ew.svg',
+  'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907303/nodewave/twitter_uqq6cn.svg',
+  'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907307/nodewave/youtube_jtsqbn.svg',
+  'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907333/nodewave/linkedin_xuh3po.svg',
+  'https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907332/nodewave/instagram_o10pky.svg',
+];
 
 function Footer() {
   return (
@@ -12,7 +18,7 @@ function Footer() {
     >
       <Image
         className="block mx-auto mb-[1.875rem]"
-        src="/assets/logo.svg"
+        src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_250/q_auto/f_auto/v1696907336/nodewave/logo_qibqga.svg"
         alt="footer-logo"
         quality={65}
         width={226}
@@ -36,7 +42,7 @@ function Footer() {
         {icons.map((icon, index) => (
           <li key={`icon-${index}`}>
             <Image
-              src={`/assets/${icon}.svg`}
+              src={icon}
               alt="social-media-icon"
               quality={65}
               width={20}

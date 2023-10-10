@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useId } from 'react';
-import logo from '/public/assets/logo.svg';
 
 const navs = ['Website', 'Mobile Apps', 'Portfolio', 'Make an App'];
 
@@ -14,7 +13,15 @@ function Navbar() {
       data-aos="fade-down"
       className="container relative z-[999] flex justify-between items-center py-7"
     >
-      <Image className="max-w-full h-auto" quality={65} src={logo} alt="logo" priority/>
+      <Image
+        className="max-w-full h-auto"
+        quality={65}
+        src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_500/q_auto/f_auto/v1696907336/nodewave/logo_qibqga.svg"
+        width={226}
+        height={44}
+        alt="logo"
+        priority
+      />
       <label htmlFor="toggle-menu" className="block lg:hidden cursor-pointer">
         <div className="lg:hidden flex flex-col gap-y-2 group">
           <span className="w-10 h-[.15rem] bg-white rounded-full"></span>
