@@ -24,7 +24,7 @@ function Product() {
       >
         <Card className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2">
           <Image
-            src='https://res.cloudinary.com/dvq5fmqpp/image/upload/w_250/q_auto/f_auto/v1696907348/nodewave/mobile-group_b590ny.svg'
+            src='https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_250/q_auto/f_auto/v1696907348/nodewave/mobile-group_b590ny.svg'
             alt="mobile-apps-icon"
             width={225.62}
             height={120}
@@ -81,7 +81,7 @@ function Product() {
           <div className="flex justify-center items-center gap-x-6 ">
             <Image
               className="self-start"
-              src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_60/q_auto/f_auto/v1696907303/nodewave/website_gqwhds.svg"
+              src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_60/q_auto/f_auto/v1696907303/nodewave/website_gqwhds.svg"
               alt="mobile-apps-icon"
               width={60}
               height={60}
@@ -101,7 +101,7 @@ function Product() {
             </div>
             <Image
               className="self-end"
-              src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_20/q_auto/f_auto/v1696907311/nodewave/arrow_a1fy9s.svg"
+              src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_20/q_auto/f_auto/v1696907311/nodewave/arrow_a1fy9s.svg"
               alt="arrow-icon"
               width={20}
               height={20}

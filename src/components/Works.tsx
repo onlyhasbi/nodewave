@@ -17,9 +17,9 @@ function Works() {
         slidesPerView={1}
         className="relative flex w-[90rem] gap-[1.875rem]"
       >
-        <SwiperSlide className="!flex gap-x-5 items-center px-4 !w-[54.563rem] !h-[32.5rem] bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/w_600/q_auto/f_auto/v1696907314/nodewave/bg-app-01_zervd0.svg')] object-fill bg-cover bg-no-repeat">
+        <SwiperSlide className="!flex gap-x-5 items-center px-4 !w-[54.563rem] !h-[32.5rem] bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_600/q_auto/f_auto/v1696907314/nodewave/bg-app-01_zervd0.svg')] object-fill bg-cover bg-no-repeat">
           <Image
-            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_600/q_auto/f_auto/v1696907310/nodewave/app-01_lox5oy.svg"
+            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_600/q_auto/f_auto/v1696907310/nodewave/app-01_lox5oy.svg"
             alt="app-01"
             width={557}
             height={329}
@@ -33,10 +33,10 @@ function Works() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex gap-x-5 rounded-xl overflow-hidden items-center px-4 !w-[54.563rem] !h-[32.5rem] bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/w_600/q_auto/f_auto/v1696907315/nodewave/bg-app-02_jy5fqy.svg')] object-fill bg-cover bg-center  bg-no-repeat">
+        <SwiperSlide className="!flex gap-x-5 rounded-xl overflow-hidden items-center px-4 !w-[54.563rem] !h-[32.5rem] bg-[url('https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_600/q_auto/f_auto/v1696907315/nodewave/bg-app-02_jy5fqy.svg')] object-fill bg-cover bg-center  bg-no-repeat">
           <Image
             className="rounded-2xl"
-            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_600/q_auto/f_auto/v1696907312/nodewave/app-02_st2u3t.svg"
+            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_600/q_auto/f_auto/v1696907312/nodewave/app-02_st2u3t.svg"
             alt="app-02"
             width={659}
             height={370}

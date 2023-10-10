@@ -16,7 +16,7 @@ function Pricelist() {
         >
           <Image
             className="block w-full xl:w-[15.125rem] h-[15rem] xl:h-auto xl:object-cover order-1 xl:order-2"
-            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_350/q_auto/f_auto/v1696907323/nodewave/code-screen_z35xcc.png"
+            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_350/q_auto/f_auto/v1696907323/nodewave/code-screen_z35xcc.png"
             quality={65}
             width={242}
             height={338}
@@ -53,7 +53,7 @@ function Pricelist() {
         >
           <Image
             className="block w-full xl:w-[15.125rem] h-[15rem] xl:h-auto xl:object-cover order-1 xl:order-2"
-            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_350/q_auto/f_auto/v1696907341/nodewave/mobile-apps_trshpp.png"
+            src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_350/q_auto/f_auto/v1696907341/nodewave/mobile-apps_trshpp.png"
             width={242}
             height={338}
             quality={65}

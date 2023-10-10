@@ -16,7 +16,7 @@ function Navbar() {
       <Image
         className="max-w-full h-auto"
         quality={65}
-        src="https://res.cloudinary.com/dvq5fmqpp/image/upload/w_500/q_auto/f_auto/v1696907336/nodewave/logo_qibqga.svg"
+        src="https://res.cloudinary.com/dvq5fmqpp/image/upload/e_sharpen/w_500/q_auto/f_auto/v1696907336/nodewave/logo_qibqga.svg"
         width={226}
         height={44}
         alt="logo"
