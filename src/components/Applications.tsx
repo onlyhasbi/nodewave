@@ -70,7 +70,7 @@ function Applications() {
             key={`apps-${index}`}
           >
             <div className="flex items-center gap-x-5 mb-[1.313rem]">
-              <Image src={img} alt={`${title}-icon`} width={50} height={50} />
+              <Image src={img} alt={`${title}-icon`} quality={65} width={50} height={50} />
               <h3 className="font-semibold text-xl">{title}</h3>
             </div>
             <div className="flex flex-col gap-y-[1.313rem]">
@@ -94,7 +94,7 @@ function Applications() {
             className="flex gap-x-[.625rem] flex-col w-2/5 lg:w-auto lg:flex-row items-center cursor-pointer transition transform hover:translate-y-2"
           >
             {Boolean(icon) ? (
-              <Image src={icon} alt={`icon-${title}`} width={45} height={45} />
+              <Image src={icon} alt={`icon-${title}`} quality={65} width={45} height={45} />
             ) : null}
             <h4 className="text-lg lg:text-left text-center font-semibold">
               {title}

@@ -20,6 +20,7 @@ function Progress() {
             alt="chat"
             width={18.063}
             height={27.75}
+            quality={65}
           />
           <div
             data-aos="fade-left"

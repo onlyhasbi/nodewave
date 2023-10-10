@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Card from './Card';
 import Title from './Title';
 import { Rubik, Roboto } from 'next/font/google';
+import mobileGroup from '/public/assets/mobile-group.svg';
 
 const rubik = Rubik({
   subsets: ['latin'],
@@ -24,10 +25,11 @@ function Product() {
       >
         <Card className="xs:col-span-1 md:col-span-2 xl:col-span-1 md:row-span-1 xl:row-span-2 bg-white flex flex-col justify-center items-center gap-y-8 p-[1.25rem] px-10 xl:order-2">
           <Image
-            src="./assets/mobile-group.svg"
+            src={mobileGroup}
             alt="mobile-apps-icon"
             width={225.62}
             height={120}
+            quality={65}
           />
           <div className="space-y-2 text-center">
             <h3
@@ -53,6 +55,7 @@ function Product() {
               alt="mobile-apps-icon"
               width={60}
               height={60}
+              quality={65}
             />
             <div className="space-y-2">
               <h3
@@ -70,6 +73,7 @@ function Product() {
               alt="arrow-icon"
               width={20}
               height={20}
+              quality={65}
             />
           </div>
         </Card>
@@ -82,6 +86,7 @@ function Product() {
               alt="mobile-apps-icon"
               width={60}
               height={60}
+              quality={65}
             />
             <div className="space-y-2">
               <h3
@@ -101,6 +106,7 @@ function Product() {
               alt="arrow-icon"
               width={20}
               height={20}
+              quality={65}
             />
           </div>
         </Card>

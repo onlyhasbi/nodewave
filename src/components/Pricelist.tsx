@@ -17,6 +17,7 @@ function Pricelist() {
           <Image
             className="block w-full xl:w-[15.125rem] h-[15rem] xl:h-auto xl:object-cover order-1 xl:order-2"
             src="/assets/code-screen.png"
+            quality={65}
             width={242}
             height={338}
             alt="website-image"
@@ -55,6 +56,7 @@ function Pricelist() {
             src="/assets/mobile-apps.png"
             width={242}
             height={338}
+            quality={65}
             alt="website-image"
           />
           <div className="w-full flex justify-center items-center p-5 xl:p-0 order-2 xl:order-1">

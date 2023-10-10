@@ -14,6 +14,7 @@ function Footer() {
         className="block mx-auto mb-[1.875rem]"
         src="/assets/logo.svg"
         alt="footer-logo"
+        quality={65}
         width={226}
         height={44}
       />
@@ -37,6 +38,7 @@ function Footer() {
             <Image
               src={`/assets/${icon}.svg`}
               alt="social-media-icon"
+              quality={65}
               width={20}
               height={20}
             />

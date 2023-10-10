@@ -23,6 +23,7 @@ function Works() {
             alt="app-01"
             width={557}
             height={329}
+            quality={65}
           />
           <div className="space-y-1">
             <h3 className="text-[2rem] font-semibold indent-7">Rayu Motor</h3>
@@ -39,6 +40,7 @@ function Works() {
             alt="app-02"
             width={659}
             height={370}
+            quality={65}
           />
           <div className="space-y-1">
             <h3 className="text-[2rem] font-semibold indent-7">Work 2</h3>

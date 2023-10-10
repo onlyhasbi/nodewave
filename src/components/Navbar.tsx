@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useId } from 'react';
+import logo from '/public/assets/logo.svg';
 
 const navs = ['Website', 'Mobile Apps', 'Portfolio', 'Make an App'];
 
@@ -13,7 +14,7 @@ function Navbar() {
       data-aos="fade-down"
       className="container relative z-[999] flex justify-between items-center py-7"
     >
-      <Image src="./assets/logo.svg" alt="logo" width={226} height={44} />
+      <Image className="max-w-full h-auto" quality={65} src={logo} alt="logo" priority/>
       <label htmlFor="toggle-menu" className="block lg:hidden cursor-pointer">
         <div className="lg:hidden flex flex-col gap-y-2 group">
           <span className="w-10 h-[.15rem] bg-white rounded-full"></span>
