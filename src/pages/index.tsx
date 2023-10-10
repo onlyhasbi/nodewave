@@ -7,10 +7,20 @@ import Works from '@/components/Works';
 import Navbar from '@/components/Navbar';
 import Pricelist from '@/components/Pricelist';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 function Home() {
   return (
     <>
+      <Head>
+        <title>Nodewave</title>
+        <meta property="og:nodewave" content="Nodewave" key="nodewave" />
+        <meta
+          name="description"
+          content="Make Your Own Website and Mobile Application With Nodewave"
+          key="desc"
+        />
+      </Head>
       <nav>
         <Navbar />
       </nav>
